@@ -33,7 +33,6 @@ INSERT INTO gold_prices (price_date, price_time, gold_price_usd, change_amount)
 VALUES ('$date', '$time', $price, $change);
 EOF
 
-    echo "$date,$time,$price,$change" >> "$DATA_FILE"
     log_message "RECORDED — Price: $price USD | Change: $change"
     echo "✔ Stored in DB + CSV"
 
