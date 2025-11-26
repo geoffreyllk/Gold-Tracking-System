@@ -15,32 +15,29 @@ get_price() {
 response=$(get_price)
 echo "API Response: $response"
 
-price=$(echo "$response" | grep -o '"price":[0-9]*\.\?[0-9]*' | cut -d: -f2)
-change=$(echo "$response" | grep -o '"ch":[+-]*[0-9]*\.\?[0-9]*' | cut -d: -f2)
+# Extract values using jq
+price=$(echo "$response" | jq -r '.price')
+change=$(echo "$response" | jq -r '.ch // 0')  
 
-echo "Extracted price: $price"
-echo "Extracted change: $change"
+echo "Price: $price | Change: $change"
 
-if [ -z "$change" ]; then
-    change="0"
-    echo "Change value empty, using default: $change"
-fi
-
-if [ -n "$price" ]; then
-    # Insert into database
+# Validate
+if [[ -n "$price" && "$price" != "null" ]]; then
+    # current date & time
     date=$(date '+%Y-%m-%d')
     time=$(date '+%H:%M:%S')
-    
-    mysql -u $DB_USER -p$DB_PASSWORD -e "
-        USE $DB_NAME;
-        INSERT INTO gold_prices (price_date, price_time, gold_price_usd, change_amount) 
-        VALUES ('$date', '$time', '$price', '$change');
-    "
-    
-    # Save to CSV
-    echo "$date,$time,$price,$change" >> $DATA_FILE
-    
-    log_message "Price recorded: $price USD (Change: $change)"
+
+    mysql -u "$DB_USER" -p"$DB_PASSWORD" <<EOF
+USE $DB_NAME;
+INSERT INTO gold_prices (price_date, price_time, gold_price_usd, change_amount)
+VALUES ('$date', '$time', $price, $change);
+EOF
+
+    echo "$date,$time,$price,$change" >> "$DATA_FILE"
+    log_message "RECORDED — Price: $price USD | Change: $change"
+    echo "✔ Stored in DB + CSV"
+
 else
-    log_message "ERROR: Failed to get price"
+    log_message "API RETURNED INVALID DATA"
+    echo "Failed to parse price"
 fi
