@@ -3,8 +3,6 @@
 
 source config.sh
 
-echo "Testing Gold Tracker"
-
 # Test database
 echo "Database:"
 mysql -u $DB_USER -p$DB_PASSWORD -e "USE $DB_NAME; SELECT 'Records:', COUNT(*) FROM gold_prices;"
@@ -17,7 +15,6 @@ echo "Current price: $price"
 
 # Test files
 echo "Files:"
-ls -la $DATA_FILE
 ls -la $LOG_FILE
 
 echo "Test Complete"

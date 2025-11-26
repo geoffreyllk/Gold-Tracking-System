@@ -28,15 +28,15 @@ if [[ -n "$price" && "$price" != "null" ]]; then
     time=$(date '+%H:%M:%S')
 
     mysql -u "$DB_USER" -p"$DB_PASSWORD" <<EOF
-USE $DB_NAME;
-INSERT INTO gold_prices (price_date, price_time, gold_price_usd, change_amount)
-VALUES ('$date', '$time', $price, $change);
+        USE $DB_NAME;
+        INSERT INTO gold_prices (price_date, price_time, gold_price_usd, change_amount)
+        VALUES ('$date', '$time', $price, $change);
 EOF
 
-    log_message "RECORDED — Price: $price USD | Change: $change"
-    echo "✔ Stored in DB + CSV"
+    log_message "Price: $price USD | Change: $change"
+    echo "succesfully stored in db"
 
 else
-    log_message "API RETURNED INVALID DATA"
-    echo "Failed to parse price"
+    log_message "api data invalid"
+    echo "failed to parse price"
 fi
