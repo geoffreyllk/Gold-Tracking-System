@@ -1,5 +1,10 @@
-#crontab.sh
 #!/bin/bash
+# crontab.sh
 
-# Run at midnight daily
-0 0 * * * cd /path/to/your/project && ./crontab.sh >> /path/to/your/project/temp/cron.log 2>&1
+
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+cd "$SCRIPT_DIR"
+
+# Run the tracker script
+./scripts/track_prices.sh
+./scripts/graph.sh

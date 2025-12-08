@@ -1,0 +1,148 @@
+API response: {"timestamp":1765173003,"metal":"XAU","currency":"USD","exchange":"FOREXCOM","symbol":"FOREXCOM:XAUUSD","prev_close_price":4197.585,"open_price":4197.585,"low_price":4191.6,"high_price":4215.965,"open_time":1765152000,"price":4213.45,"ch":15.86,"chp":0.38,"ask":4213.91,"bid":4213.25,"price_gram_24k":135.4656,"price_gram_22k":124.1768,"price_gram_21k":118.5324,"price_gram_20k":112.888,"price_gram_18k":101.5992,"price_gram_16k":90.3104,"price_gram_14k":79.0216,"price_gram_10k":56.444}
+Price: 4213.45 | Change: 15.86
+mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1054 (42S22) at line 2: Unknown column 'price_change' in 'field list'
+./scripts/track_prices.sh: line 9: /home/user1/gold_price_tracker/scripts/temp/gold_tracker.log: No such file or directory
+succesfully stored in db
+API response: {"timestamp":1765173300,"metal":"XAU","currency":"USD","exchange":"FOREXCOM","symbol":"FOREXCOM:XAUUSD","prev_close_price":4197.585,"open_price":4197.585,"low_price":4191.6,"high_price":4215.965,"open_time":1765152000,"price":4215.86,"ch":18.27,"chp":0.44,"ask":4216.13,"bid":4215.65,"price_gram_24k":135.543,"price_gram_22k":124.2478,"price_gram_21k":118.6002,"price_gram_20k":112.9525,"price_gram_18k":101.6573,"price_gram_16k":90.362,"price_gram_14k":79.0668,"price_gram_10k":56.4763}
+Price: 4215.86 | Change: 18.27
+mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1054 (42S22) at line 2: Unknown column 'price_change' in 'field list'
+./scripts/track_prices.sh: line 9: /home/user1/gold_price_tracker/scripts/temp/gold_tracker.log: No such file or directory
+succesfully stored in db
+API response: {"timestamp":1765173598,"metal":"XAU","currency":"USD","exchange":"FOREXCOM","symbol":"FOREXCOM:XAUUSD","prev_close_price":4197.585,"open_price":4197.585,"low_price":4191.6,"high_price":4216.495,"open_time":1765152000,"price":4216.955,"ch":19.37,"chp":0.46,"ask":4217.36,"bid":4216.96,"price_gram_24k":135.5783,"price_gram_22k":124.2801,"price_gram_21k":118.631,"price_gram_20k":112.9819,"price_gram_18k":101.6837,"price_gram_16k":90.3855,"price_gram_14k":79.0873,"price_gram_10k":56.4909}
+mysql: [Warning] Using a password on the command line interface can be insecure.
+succesfully stored in db
+API response: {"timestamp":1765173901,"metal":"XAU","currency":"USD","exchange":"FOREXCOM","symbol":"FOREXCOM:XAUUSD","prev_close_price":4197.585,"open_price":4197.585,"low_price":4191.6,"high_price":4218.585,"open_time":1765152000,"price":4217.27,"ch":19.69,"chp":0.47,"ask":4217.56,"bid":4216.99,"price_gram_24k":135.5884,"price_gram_22k":124.2893,"price_gram_21k":118.6398,"price_gram_20k":112.9903,"price_gram_18k":101.6913,"price_gram_16k":90.3923,"price_gram_14k":79.0932,"price_gram_10k":56.4952}
+mysql: [Warning] Using a password on the command line interface can be insecure.
+succesfully stored in db
+API response: {"timestamp":1765174201,"metal":"XAU","currency":"USD","exchange":"FOREXCOM","symbol":"FOREXCOM:XAUUSD","prev_close_price":4197.585,"open_price":4197.585,"low_price":4191.6,"high_price":4218.585,"open_time":1765152000,"price":4214.355,"ch":16.77,"chp":0.4,"ask":4214.68,"bid":4214.2,"price_gram_24k":135.4947,"price_gram_22k":124.2034,"price_gram_21k":118.5578,"price_gram_20k":112.9122,"price_gram_18k":101.621,"price_gram_16k":90.3298,"price_gram_14k":79.0386,"price_gram_10k":56.4561}
+mysql: [Warning] Using a password on the command line interface can be insecure.
+succesfully stored in db
+Extracting SQL data to text file...
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Data sample:
+price_date	price	price_change	price_gram_24k	price_gram_22k	price_gram_21k	price_gram_20k	price_gram_18k	price_gram_16k	price_gram_14k	price_gram_10k
+2025-12-08	4214.36	16.77	135.4947	124.2034	118.5578	112.9122	101.6210	90.3298	79.0386	56.4561
+2025-12-08	4217.27	19.69	135.5884	124.2893	118.6398	112.9903	101.6913	90.3923	79.0932	56.4952
+Creating graph 1/10: Gold Price (USD per ounce)...
+Created: graph_price.png
+Creating graph 2/10: Gold Price Daily Change...
+Created: graph_price_change.png
+Creating graph 3/10: 24K Gold Price (USD per gram)...
+Created: graph_price_gram_24k.png
+Creating graph 4/10: 22K Gold Price (USD per gram)...
+Created: graph_price_gram_22k.png
+Creating graph 5/10: 21K Gold Price (USD per gram)...
+Created: graph_price_gram_21k.png
+Creating graph 6/10: 20K Gold Price (USD per gram)...
+Created: graph_price_gram_20k.png
+Creating graph 7/10: 18K Gold Price (USD per gram)...
+Created: graph_price_gram_18k.png
+Creating graph 8/10: 16K Gold Price (USD per gram)...
+Created: graph_price_gram_16k.png
+Creating graph 9/10: 14K Gold Price (USD per gram)...
+Created: graph_price_gram_14k.png
+Creating graph 10/10: 10K Gold Price (USD per gram)...
+Created: graph_price_gram_10k.png
+
+All 10 graphs successfully generated:
+
+   1. graph_price.png - Gold Price (USD per ounce)
+   2. graph_price_change.png - Gold Price Daily Change
+   3. graph_price_gram_24k.png - 24K Gold Price (USD per gram)
+   4. graph_price_gram_22k.png - 22K Gold Price (USD per gram)
+   5. graph_price_gram_21k.png - 21K Gold Price (USD per gram)
+   6. graph_price_gram_20k.png - 20K Gold Price (USD per gram)
+   7. graph_price_gram_18k.png - 18K Gold Price (USD per gram)
+   8. graph_price_gram_16k.png - 16K Gold Price (USD per gram)
+   9. graph_price_gram_14k.png - 14K Gold Price (USD per gram)
+   10. graph_price_gram_10k.png - 10K Gold Price (USD per gram)
+
+File Location: /home/user1/gold_price_tracker/data/
+-rw-r--r-- 1 user1 user1 35453 Dec  8 14:10 /home/user1/gold_price_tracker/data/graph_price.png
+-rw-r--r-- 1 user1 user1 34552 Dec  8 14:10 /home/user1/gold_price_tracker/data/graph_price_change.png
+-rw-r--r-- 1 user1 user1 41809 Dec  8 14:10 /home/user1/gold_price_tracker/data/graph_price_gram_10k.png
+-rw-r--r-- 1 user1 user1 36770 Dec  8 14:10 /home/user1/gold_price_tracker/data/graph_price_gram_14k.png
+-rw-r--r-- 1 user1 user1 40455 Dec  8 14:10 /home/user1/gold_price_tracker/data/graph_price_gram_16k.png
+-rw-r--r-- 1 user1 user1 40527 Dec  8 14:10 /home/user1/gold_price_tracker/data/graph_price_gram_18k.png
+-rw-r--r-- 1 user1 user1 41131 Dec  8 14:10 /home/user1/gold_price_tracker/data/graph_price_gram_20k.png
+-rw-r--r-- 1 user1 user1 41632 Dec  8 14:10 /home/user1/gold_price_tracker/data/graph_price_gram_21k.png
+-rw-r--r-- 1 user1 user1 36574 Dec  8 14:10 /home/user1/gold_price_tracker/data/graph_price_gram_22k.png
+-rw-r--r-- 1 user1 user1 38675 Dec  8 14:10 /home/user1/gold_price_tracker/data/graph_price_gram_24k.png
+API response: {"timestamp":1765176601,"metal":"XAU","currency":"USD","exchange":"FOREXCOM","symbol":"FOREXCOM:XAUUSD","prev_close_price":4197.585,"open_price":4197.585,"low_price":4191.6,"high_price":4218.965,"open_time":1765152000,"price":4216.69,"ch":19.1,"chp":0.46,"ask":4217.02,"bid":4216.49,"price_gram_24k":135.5697,"price_gram_22k":124.2723,"price_gram_21k":118.6235,"price_gram_20k":112.9748,"price_gram_18k":101.6773,"price_gram_16k":90.3798,"price_gram_14k":79.0823,"price_gram_10k":56.4874}
+mysql: [Warning] Using a password on the command line interface can be insecure.
+succesfully stored in db
+Extracting SQL data to text file...
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Data sample:
+price_date	price	price_change	price_gram_24k	price_gram_22k	price_gram_21k	price_gram_20k	price_gram_18k	price_gram_16k	price_gram_14k	price_gram_10k
+2025-12-08	4216.69	19.10	135.5697	124.2723	118.6235	112.9748	101.6773	90.3798	79.0823	56.4874
+2025-12-08	4214.36	16.77	135.4947	124.2034	118.5578	112.9122	101.6210	90.3298	79.0386	56.4561
+Creating graph 1/10: Gold Price (USD per ounce)...
+Created: graph_price.png
+Creating graph 2/10: Gold Price Daily Change...
+Created: graph_price_change.png
+Creating graph 3/10: 24K Gold Price (USD per gram)...
+Created: graph_price_gram_24k.png
+Creating graph 4/10: 22K Gold Price (USD per gram)...
+Created: graph_price_gram_22k.png
+Creating graph 5/10: 21K Gold Price (USD per gram)...
+Created: graph_price_gram_21k.png
+Creating graph 6/10: 20K Gold Price (USD per gram)...
+Created: graph_price_gram_20k.png
+Creating graph 7/10: 18K Gold Price (USD per gram)...
+Created: graph_price_gram_18k.png
+Creating graph 8/10: 16K Gold Price (USD per gram)...
+Created: graph_price_gram_16k.png
+Creating graph 9/10: 14K Gold Price (USD per gram)...
+Created: graph_price_gram_14k.png
+Creating graph 10/10: 10K Gold Price (USD per gram)...
+Created: graph_price_gram_10k.png
+
+All 10 graphs successfully generated:
+
+   1. graph_price.png - Gold Price (USD per ounce)
+   2. graph_price_change.png - Gold Price Daily Change
+   3. graph_price_gram_24k.png - 24K Gold Price (USD per gram)
+   4. graph_price_gram_22k.png - 22K Gold Price (USD per gram)
+   5. graph_price_gram_21k.png - 21K Gold Price (USD per gram)
+   6. graph_price_gram_20k.png - 20K Gold Price (USD per gram)
+   7. graph_price_gram_18k.png - 18K Gold Price (USD per gram)
+   8. graph_price_gram_16k.png - 16K Gold Price (USD per gram)
+   9. graph_price_gram_14k.png - 14K Gold Price (USD per gram)
+   10. graph_price_gram_10k.png - 10K Gold Price (USD per gram)
+
+File Location: /home/user1/gold_price_tracker/data/
+-rw-r--r-- 1 user1 user1 38733 Dec  8 14:50 /home/user1/gold_price_tracker/data/graph_price.png
+-rw-r--r-- 1 user1 user1 37862 Dec  8 14:50 /home/user1/gold_price_tracker/data/graph_price_change.png
+-rw-r--r-- 1 user1 user1 45268 Dec  8 14:50 /home/user1/gold_price_tracker/data/graph_price_gram_10k.png
+-rw-r--r-- 1 user1 user1 40594 Dec  8 14:50 /home/user1/gold_price_tracker/data/graph_price_gram_14k.png
+-rw-r--r-- 1 user1 user1 43339 Dec  8 14:50 /home/user1/gold_price_tracker/data/graph_price_gram_16k.png
+-rw-r--r-- 1 user1 user1 43935 Dec  8 14:50 /home/user1/gold_price_tracker/data/graph_price_gram_18k.png
+-rw-r--r-- 1 user1 user1 44359 Dec  8 14:50 /home/user1/gold_price_tracker/data/graph_price_gram_20k.png
+-rw-r--r-- 1 user1 user1 44644 Dec  8 14:50 /home/user1/gold_price_tracker/data/graph_price_gram_21k.png
+-rw-r--r-- 1 user1 user1 39580 Dec  8 14:50 /home/user1/gold_price_tracker/data/graph_price_gram_22k.png
+-rw-r--r-- 1 user1 user1 41267 Dec  8 14:50 /home/user1/gold_price_tracker/data/graph_price_gram_24k.png
+API response: {"timestamp":1765176899,"metal":"XAU","currency":"USD","exchange":"FOREXCOM","symbol":"FOREXCOM:XAUUSD","prev_close_price":4197.585,"open_price":4197.585,"low_price":4191.6,"high_price":4218.965,"open_time":1765152000,"price":4216.565,"ch":18.98,"chp":0.45,"ask":4216.77,"bid":4216.38,"price_gram_24k":135.5657,"price_gram_22k":124.2686,"price_gram_21k":118.62,"price_gram_20k":112.9714,"price_gram_18k":101.6743,"price_gram_16k":90.3771,"price_gram_14k":79.08,"price_gram_10k":56.4857}
+mysql: [Warning] Using a password on the command line interface can be insecure.
+succesfully stored in db
+Extracting SQL data to text file...
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Data sample:
+price_date	price	price_change	price_gram_24k	price_gram_22k	price_gram_21k	price_gram_20k	price_gram_18k	price_gram_16k	price_gram_14k	price_gram_10k
+2025-12-08	4216.57	18.98	135.5657	124.2686	118.6200	112.9714	101.6743	90.3771	79.0800	56.4857
+2025-12-08	4216.69	19.10	135.5697	124.2723	118.6235	112.9748	101.6773	90.3798	79.0823	56.4874
+Creating graph 1/10: Gold Price (USD per ounce)...
+Creating graph 2/10: Gold Price Daily Change...
+Creating graph 3/10: 24K Gold Price (USD per gram)...
+Creating graph 4/10: 22K Gold Price (USD per gram)...
+Creating graph 5/10: 21K Gold Price (USD per gram)...
+Creating graph 6/10: 20K Gold Price (USD per gram)...
+Creating graph 7/10: 18K Gold Price (USD per gram)...
+Creating graph 8/10: 16K Gold Price (USD per gram)...
+Creating graph 9/10: 14K Gold Price (USD per gram)...
+Creating graph 10/10: 10K Gold Price (USD per gram)...
+
+All 10 graphs successfully generated:
+
