@@ -510,3 +510,142 @@ Extracting SQL data to text file...
 mysql: [Warning] Using a password on the command line interface can be insecure.
 ERROR 1054 (42S22) at line 2: Unknown column 'price_gram_24k' in 'field list'
 No data found in database.
+API response: {"timestamp":1765611295,"metal":"XAU","currency":"USD","exchange":"FOREXCOM","symbol":"FOREXCOM:XAUUSD","prev_close_price":4280.455,"open_price":4280.455,"low_price":4257.88,"high_price":4353.59,"open_time":1765497600,"price":4299.39,"ch":18.94,"chp":0.44,"ask":4299.62,"bid":4299.16,"price_gram_24k":138.2286,"price_gram_22k":126.7095,"price_gram_21k":120.95,"price_gram_20k":115.1905,"price_gram_18k":103.6714,"price_gram_16k":92.1524,"price_gram_14k":80.6333,"price_gram_10k":57.5952}
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Succesfully stored in db.
+Extracting SQL data to text file...
+mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1054 (42S22) at line 2: Unknown column 'price_gram_24k' in 'field list'
+No data found in database.
+API response: {"timestamp":1765611561,"metal":"XAU","currency":"USD","exchange":"FOREXCOM","symbol":"FOREXCOM:XAUUSD","prev_close_price":4280.455,"open_price":4280.455,"low_price":4257.88,"high_price":4353.59,"open_time":1765497600,"price":4299.39,"ch":18.94,"chp":0.44,"ask":4299.62,"bid":4299.16,"price_gram_24k":138.2286,"price_gram_22k":126.7095,"price_gram_21k":120.95,"price_gram_20k":115.1905,"price_gram_18k":103.6714,"price_gram_16k":92.1524,"price_gram_14k":80.6333,"price_gram_10k":57.5952}
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Succesfully stored in db.
+Extracting SQL data to text file...
+mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1054 (42S22) at line 2: Unknown column 'price_gram_24k' in 'field list'
+No data found in database.
+API response: {"timestamp":1765611893,"metal":"XAU","currency":"USD","exchange":"FOREXCOM","symbol":"FOREXCOM:XAUUSD","prev_close_price":4280.455,"open_price":4280.455,"low_price":4257.88,"high_price":4353.59,"open_time":1765497600,"price":4299.39,"ch":18.94,"chp":0.44,"ask":4299.62,"bid":4299.16,"price_gram_24k":138.2286,"price_gram_22k":126.7095,"price_gram_21k":120.95,"price_gram_20k":115.1905,"price_gram_18k":103.6714,"price_gram_16k":92.1524,"price_gram_14k":80.6333,"price_gram_10k":57.5952}
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Succesfully stored in db.
+Extracting SQL data to text file...
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Data sample:
+datetime	price	price_change	price_gram_24k	price_gram_22k	price_gram_21k	price_gram_20k	price_gram_18k	price_gram_16k	price_gram_14k	price_gram_10k
+2025-12-13 15:05:02	4299.39	18.94	138.2286	126.7095	120.9500	115.1905	103.6714	92.1524	80.6333	57.5952
+2025-12-13 15:06:55	4299.39	18.94	138.2286	126.7095	120.9500	115.1905	103.6714	92.1524	80.6333	57.5952
+Creating graph 1/10: Gold Price (USD per ounce)...
+Warning: empty y range [4299.39:4299.39], adjusting to [4256.4:4342.38]
+Created: graph_price.png
+Creating graph 2/10: Gold Price Daily Change...
+Warning: empty y range [18.94:18.94], adjusting to [18.7506:19.1294]
+Created: graph_price_change.png
+Creating graph 3/10: 24K Gold Price (USD per gram)...
+Warning: empty y range [138.229:138.229], adjusting to [136.846:139.611]
+Created: graph_price_gram_24k.png
+Creating graph 4/10: 22K Gold Price (USD per gram)...
+Warning: empty y range [126.71:126.71], adjusting to [125.442:127.977]
+Created: graph_price_gram_22k.png
+Creating graph 5/10: 21K Gold Price (USD per gram)...
+Warning: empty y range [120.95:120.95], adjusting to [119.74:122.16]
+Created: graph_price_gram_21k.png
+Creating graph 6/10: 20K Gold Price (USD per gram)...
+Warning: empty y range [115.191:115.191], adjusting to [114.039:116.342]
+Created: graph_price_gram_20k.png
+Creating graph 7/10: 18K Gold Price (USD per gram)...
+Warning: empty y range [103.671:103.671], adjusting to [102.635:104.708]
+Created: graph_price_gram_18k.png
+Creating graph 8/10: 16K Gold Price (USD per gram)...
+Warning: empty y range [92.1524:92.1524], adjusting to [91.2309:93.0739]
+Created: graph_price_gram_16k.png
+Creating graph 9/10: 14K Gold Price (USD per gram)...
+Warning: empty y range [80.6333:80.6333], adjusting to [79.827:81.4396]
+Created: graph_price_gram_14k.png
+Creating graph 10/10: 10K Gold Price (USD per gram)...
+Warning: empty y range [57.5952:57.5952], adjusting to [57.0192:58.1712]
+Created: graph_price_gram_10k.png
+
+All 10 graphs successfully created.
+API response: {"timestamp":1765612197,"metal":"XAU","currency":"USD","exchange":"FOREXCOM","symbol":"FOREXCOM:XAUUSD","prev_close_price":4280.455,"open_price":4280.455,"low_price":4257.88,"high_price":4353.59,"open_time":1765497600,"price":4299.39,"ch":18.94,"chp":0.44,"ask":4299.62,"bid":4299.16,"price_gram_24k":138.2286,"price_gram_22k":126.7095,"price_gram_21k":120.95,"price_gram_20k":115.1905,"price_gram_18k":103.6714,"price_gram_16k":92.1524,"price_gram_14k":80.6333,"price_gram_10k":57.5952}
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Succesfully stored in db.
+Extracting SQL data to text file...
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Data sample:
+datetime	price	price_change	price_gram_24k	price_gram_22k	price_gram_21k	price_gram_20k	price_gram_18k	price_gram_16k	price_gram_14k	price_gram_10k
+2025-12-13 15:05:02	4299.39	18.94	138.2286	126.7095	120.9500	115.1905	103.6714	92.1524	80.6333	57.5952
+2025-12-13 15:06:55	4299.39	18.94	138.2286	126.7095	120.9500	115.1905	103.6714	92.1524	80.6333	57.5952
+
+All 10 graphs successfully created.
+
+API response: {"timestamp":1765612490,"metal":"XAU","currency":"USD","exchange":"FOREXCOM","symbol":"FOREXCOM:XAUUSD","prev_close_price":4280.455,"open_price":4280.455,"low_price":4257.88,"high_price":4353.59,"open_time":1765497600,"price":4299.39,"ch":18.94,"chp":0.44,"ask":4299.62,"bid":4299.16,"price_gram_24k":138.2286,"price_gram_22k":126.7095,"price_gram_21k":120.95,"price_gram_20k":115.1905,"price_gram_18k":103.6714,"price_gram_16k":92.1524,"price_gram_14k":80.6333,"price_gram_10k":57.5952}
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Succesfully stored in db.
+Extracting SQL data to text file...
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Data sample:
+datetime	price	price_change	price_gram_24k	price_gram_22k	price_gram_21k	price_gram_20k	price_gram_18k	price_gram_16k	price_gram_14k	price_gram_10k
+2025-12-13 15:05:02	4299.39	18.94	138.2286	126.7095	120.9500	115.1905	103.6714	92.1524	80.6333	57.5952
+2025-12-13 15:06:55	4299.39	18.94	138.2286	126.7095	120.9500	115.1905	103.6714	92.1524	80.6333	57.5952
+
+All 10 graphs successfully created.
+
+API response: {"timestamp":1765612784,"metal":"XAU","currency":"USD","exchange":"FOREXCOM","symbol":"FOREXCOM:XAUUSD","prev_close_price":4280.455,"open_price":4280.455,"low_price":4257.88,"high_price":4353.59,"open_time":1765497600,"price":4299.39,"ch":18.94,"chp":0.44,"ask":4299.62,"bid":4299.16,"price_gram_24k":138.2286,"price_gram_22k":126.7095,"price_gram_21k":120.95,"price_gram_20k":115.1905,"price_gram_18k":103.6714,"price_gram_16k":92.1524,"price_gram_14k":80.6333,"price_gram_10k":57.5952}
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Succesfully stored in db.
+Extracting SQL data to text file...
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Data sample:
+datetime	price	price_change	price_gram_24k	price_gram_22k	price_gram_21k	price_gram_20k	price_gram_18k	price_gram_16k	price_gram_14k	price_gram_10k
+2025-12-13 15:05:02	4299.39	18.94	138.2286	126.7095	120.9500	115.1905	103.6714	92.1524	80.6333	57.5952
+2025-12-13 15:06:55	4299.39	18.94	138.2286	126.7095	120.9500	115.1905	103.6714	92.1524	80.6333	57.5952
+
+All 10 graphs successfully created.
+
+API response: {"timestamp":1765613098,"metal":"XAU","currency":"USD","exchange":"FOREXCOM","symbol":"FOREXCOM:XAUUSD","prev_close_price":4280.455,"open_price":4280.455,"low_price":4257.88,"high_price":4353.59,"open_time":1765497600,"price":4299.39,"ch":18.94,"chp":0.44,"ask":4299.62,"bid":4299.16,"price_gram_24k":138.2286,"price_gram_22k":126.7095,"price_gram_21k":120.95,"price_gram_20k":115.1905,"price_gram_18k":103.6714,"price_gram_16k":92.1524,"price_gram_14k":80.6333,"price_gram_10k":57.5952}
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Succesfully stored in db.
+Extracting SQL data to text file...
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Data sample:
+datetime	price	price_change	price_gram_24k	price_gram_22k	price_gram_21k	price_gram_20k	price_gram_18k	price_gram_16k	price_gram_14k	price_gram_10k
+2025-12-13 15:05:02	4299.39	18.94	138.2286	126.7095	120.9500	115.1905	103.6714	92.1524	80.6333	57.5952
+2025-12-13 15:06:55	4299.39	18.94	138.2286	126.7095	120.9500	115.1905	103.6714	92.1524	80.6333	57.5952
+
+All 10 graphs successfully created.
+
+API response: {"timestamp":1765613396,"metal":"XAU","currency":"USD","exchange":"FOREXCOM","symbol":"FOREXCOM:XAUUSD","prev_close_price":4280.455,"open_price":4280.455,"low_price":4257.88,"high_price":4353.59,"open_time":1765497600,"price":4299.39,"ch":18.94,"chp":0.44,"ask":4299.62,"bid":4299.16,"price_gram_24k":138.2286,"price_gram_22k":126.7095,"price_gram_21k":120.95,"price_gram_20k":115.1905,"price_gram_18k":103.6714,"price_gram_16k":92.1524,"price_gram_14k":80.6333,"price_gram_10k":57.5952}
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Succesfully stored in db.
+Extracting SQL data to text file...
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Data sample:
+datetime	price	price_change	price_gram_24k	price_gram_22k	price_gram_21k	price_gram_20k	price_gram_18k	price_gram_16k	price_gram_14k	price_gram_10k
+2025-12-13 15:05:02	4299.39	18.94	138.2286	126.7095	120.9500	115.1905	103.6714	92.1524	80.6333	57.5952
+2025-12-13 15:06:55	4299.39	18.94	138.2286	126.7095	120.9500	115.1905	103.6714	92.1524	80.6333	57.5952
+
+All 10 graphs successfully created.
+
+API response: {"timestamp":1765613682,"metal":"XAU","currency":"USD","exchange":"FOREXCOM","symbol":"FOREXCOM:XAUUSD","prev_close_price":4280.455,"open_price":4280.455,"low_price":4257.88,"high_price":4353.59,"open_time":1765497600,"price":4299.39,"ch":18.94,"chp":0.44,"ask":4299.62,"bid":4299.16,"price_gram_24k":138.2286,"price_gram_22k":126.7095,"price_gram_21k":120.95,"price_gram_20k":115.1905,"price_gram_18k":103.6714,"price_gram_16k":92.1524,"price_gram_14k":80.6333,"price_gram_10k":57.5952}
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Succesfully stored in db.
+Extracting SQL data to text file...
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Data sample:
+datetime	price	price_change	price_gram_24k	price_gram_22k	price_gram_21k	price_gram_20k	price_gram_18k	price_gram_16k	price_gram_14k	price_gram_10k
+2025-12-13 15:05:02	4299.39	18.94	138.2286	126.7095	120.9500	115.1905	103.6714	92.1524	80.6333	57.5952
+2025-12-13 15:06:55	4299.39	18.94	138.2286	126.7095	120.9500	115.1905	103.6714	92.1524	80.6333	57.5952
+
+All 10 graphs successfully created.
+
+API response: {"timestamp":1765613996,"metal":"XAU","currency":"USD","exchange":"FOREXCOM","symbol":"FOREXCOM:XAUUSD","prev_close_price":4280.455,"open_price":4280.455,"low_price":4257.88,"high_price":4353.59,"open_time":1765497600,"price":4299.39,"ch":18.94,"chp":0.44,"ask":4299.62,"bid":4299.16,"price_gram_24k":138.2286,"price_gram_22k":126.7095,"price_gram_21k":120.95,"price_gram_20k":115.1905,"price_gram_18k":103.6714,"price_gram_16k":92.1524,"price_gram_14k":80.6333,"price_gram_10k":57.5952}
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Succesfully stored in db.
+Extracting SQL data to text file...
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Data sample:
+datetime	price	price_change	price_gram_24k	price_gram_22k	price_gram_21k	price_gram_20k	price_gram_18k	price_gram_16k	price_gram_14k	price_gram_10k
+2025-12-13 15:05:02	4299.39	18.94	138.2286	126.7095	120.9500	115.1905	103.6714	92.1524	80.6333	57.5952
+2025-12-13 15:06:55	4299.39	18.94	138.2286	126.7095	120.9500	115.1905	103.6714	92.1524	80.6333	57.5952
+
+All 10 graphs successfully created.
+

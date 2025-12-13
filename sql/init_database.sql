@@ -1,6 +1,7 @@
 -- init_database.sql
 
-DROP DATABASE IF EXISTS gold_tracker;
+-- DROP DATABASE IF EXISTS gold_tracker;
+
 CREATE DATABASE gold_tracker;
 USE gold_tracker;
 
