@@ -4,7 +4,7 @@ DROP DATABASE IF EXISTS gold_tracker;
 CREATE DATABASE gold_tracker;
 USE gold_tracker;
 
--- main price data
+-- main price of 1 troy ounce of gold
 CREATE TABLE gold_prices (
     id INT AUTO_INCREMENT PRIMARY KEY,
     price_date DATE NOT NULL,
@@ -15,7 +15,7 @@ CREATE TABLE gold_prices (
     INDEX idx_datetime (price_date, price_time)
 );
 
--- additional purity prices
+-- price of 1 gram of gold at different purity levels
 CREATE TABLE purity_prices (
     id INT AUTO_INCREMENT PRIMARY KEY,
     gold_price_id INT NOT NULL,

@@ -468,3 +468,45 @@ Extracting SQL data to text file...
 mysql: [Warning] Using a password on the command line interface can be insecure.
 ERROR 1054 (42S22) at line 2: Unknown column 'price_gram_24k' in 'field list'
 No data found in database.
+API response: {"timestamp":1765609497,"metal":"XAU","currency":"USD","exchange":"FOREXCOM","symbol":"FOREXCOM:XAUUSD","prev_close_price":4280.455,"open_price":4280.455,"low_price":4257.88,"high_price":4353.59,"open_time":1765497600,"price":4299.39,"ch":18.94,"chp":0.44,"ask":4299.62,"bid":4299.16,"price_gram_24k":138.2286,"price_gram_22k":126.7095,"price_gram_21k":120.95,"price_gram_20k":115.1905,"price_gram_18k":103.6714,"price_gram_16k":92.1524,"price_gram_14k":80.6333,"price_gram_10k":57.5952}
+mysql: [Warning] Using a password on the command line interface can be insecure.
+succesfully stored in db
+Extracting SQL data to text file...
+mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1054 (42S22) at line 2: Unknown column 'price_gram_24k' in 'field list'
+No data found in database.
+API response: {"timestamp":1765609800,"metal":"XAU","currency":"USD","exchange":"FOREXCOM","symbol":"FOREXCOM:XAUUSD","prev_close_price":4280.455,"open_price":4280.455,"low_price":4257.88,"high_price":4353.59,"open_time":1765497600,"price":4299.39,"ch":18.94,"chp":0.44,"ask":4299.62,"bid":4299.16,"price_gram_24k":138.2286,"price_gram_22k":126.7095,"price_gram_21k":120.95,"price_gram_20k":115.1905,"price_gram_18k":103.6714,"price_gram_16k":92.1524,"price_gram_14k":80.6333,"price_gram_10k":57.5952}
+mysql: [Warning] Using a password on the command line interface can be insecure.
+succesfully stored in db
+Extracting SQL data to text file...
+mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1054 (42S22) at line 2: Unknown column 'price_gram_24k' in 'field list'
+No data found in database.
+API response: {"timestamp":1765610096,"metal":"XAU","currency":"USD","exchange":"FOREXCOM","symbol":"FOREXCOM:XAUUSD","prev_close_price":4280.455,"open_price":4280.455,"low_price":4257.88,"high_price":4353.59,"open_time":1765497600,"price":4299.39,"ch":18.94,"chp":0.44,"ask":4299.62,"bid":4299.16,"price_gram_24k":138.2286,"price_gram_22k":126.7095,"price_gram_21k":120.95,"price_gram_20k":115.1905,"price_gram_18k":103.6714,"price_gram_16k":92.1524,"price_gram_14k":80.6333,"price_gram_10k":57.5952}
+mysql: [Warning] Using a password on the command line interface can be insecure.
+succesfully stored in db
+Extracting SQL data to text file...
+mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1054 (42S22) at line 2: Unknown column 'price_gram_24k' in 'field list'
+No data found in database.
+API response: {"timestamp":1765610390,"metal":"XAU","currency":"USD","exchange":"FOREXCOM","symbol":"FOREXCOM:XAUUSD","prev_close_price":4280.455,"open_price":4280.455,"low_price":4257.88,"high_price":4353.59,"open_time":1765497600,"price":4299.39,"ch":18.94,"chp":0.44,"ask":4299.62,"bid":4299.16,"price_gram_24k":138.2286,"price_gram_22k":126.7095,"price_gram_21k":120.95,"price_gram_20k":115.1905,"price_gram_18k":103.6714,"price_gram_16k":92.1524,"price_gram_14k":80.6333,"price_gram_10k":57.5952}
+mysql: [Warning] Using a password on the command line interface can be insecure.
+succesfully stored in db
+Extracting SQL data to text file...
+mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1054 (42S22) at line 2: Unknown column 'price_gram_24k' in 'field list'
+No data found in database.
+API response: {"timestamp":1765610699,"metal":"XAU","currency":"USD","exchange":"FOREXCOM","symbol":"FOREXCOM:XAUUSD","prev_close_price":4280.455,"open_price":4280.455,"low_price":4257.88,"high_price":4353.59,"open_time":1765497600,"price":4299.39,"ch":18.94,"chp":0.44,"ask":4299.62,"bid":4299.16,"price_gram_24k":138.2286,"price_gram_22k":126.7095,"price_gram_21k":120.95,"price_gram_20k":115.1905,"price_gram_18k":103.6714,"price_gram_16k":92.1524,"price_gram_14k":80.6333,"price_gram_10k":57.5952}
+mysql: [Warning] Using a password on the command line interface can be insecure.
+succesfully stored in db
+Extracting SQL data to text file...
+mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1054 (42S22) at line 2: Unknown column 'price_gram_24k' in 'field list'
+No data found in database.
+API response: {"timestamp":1765610994,"metal":"XAU","currency":"USD","exchange":"FOREXCOM","symbol":"FOREXCOM:XAUUSD","prev_close_price":4280.455,"open_price":4280.455,"low_price":4257.88,"high_price":4353.59,"open_time":1765497600,"price":4299.39,"ch":18.94,"chp":0.44,"ask":4299.62,"bid":4299.16,"price_gram_24k":138.2286,"price_gram_22k":126.7095,"price_gram_21k":120.95,"price_gram_20k":115.1905,"price_gram_18k":103.6714,"price_gram_16k":92.1524,"price_gram_14k":80.6333,"price_gram_10k":57.5952}
+mysql: [Warning] Using a password on the command line interface can be insecure.
+succesfully stored in db
+Extracting SQL data to text file...
+mysql: [Warning] Using a password on the command line interface can be insecure.
+ERROR 1054 (42S22) at line 2: Unknown column 'price_gram_24k' in 'field list'
+No data found in database.

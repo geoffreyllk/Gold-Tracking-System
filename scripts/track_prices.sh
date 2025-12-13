@@ -37,17 +37,24 @@ if [[ -n "$price" && "$price" != "null" ]]; then
     #insert values into sql db
     mysql -u "$DB_USER" -p"$DB_PASSWORD" <<EOF
         USE $DB_NAME;
-        INSERT INTO gold_prices (
-            price_date, price_time, price, price_change,
-            price_gram_24k, price_gram_22k, price_gram_21k, price_gram_20k, price_gram_18k, price_gram_16k, price_gram_14k, price_gram_10k
-        ) VALUES (
-            '$date', '$time', $price, $change,
-            $price_24k, $price_22k, $price_21k, $price_20k, $price_18k, $price_16k, $price_14k, $price_10k
-        );
+        INSERT INTO gold_prices (price_date, price_time, price, price_change)
+        VALUES ('$date', '$time', $price, $change);
+        
+        SET @gold_price_id = LAST_INSERT_ID();
+        
+        INSERT INTO purity_prices (gold_price_id, purity, price_per_gram) VALUES
+            (@gold_price_id, '24k', $price_24k),
+            (@gold_price_id, '22k', $price_22k),
+            (@gold_price_id, '21k', $price_21k),
+            (@gold_price_id, '20k', $price_20k),
+            (@gold_price_id, '18k', $price_18k),
+            (@gold_price_id, '16k', $price_16k),
+            (@gold_price_id, '14k', $price_14k),
+            (@gold_price_id, '10k', $price_10k);
 EOF
 
-    log_message "SUCCESS: Recorded price $price USD (Change: $price_change USD) | Purity prices: 24k=$price_24k, 22k=$price_22k, 18k=$price_18k, 16k=$price_16k, 14k=$price_14k, 10k=$price_10k"
-    echo "succesfully stored in db"
+    log_message "SUCCESS: Recorded price $price USD (Change: $change USD) | Purity prices: 24k=$price_24k, 22k=$price_22k, 18k=$price_18k, 16k=$price_16k, 14k=$price_14k, 10k=$price_10k"
+    echo "Succesfully stored in db."
 
 else
     #if invalid echo error
