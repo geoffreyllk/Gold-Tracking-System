@@ -43,7 +43,7 @@ set xdata time
 set timefmt "%Y-%m-%d %H:%M:%S"
 set format x "%m/%d %H:%M"
 set datafile separator "\t"
-plot "$BASE_DIR/data/gold_data.txt" every ::1 using 1:2 with linespoints linewidth 2
+plot "$BASE_DIR/data/gold_data.txt" every ::1 using 1:2 with linespoints linewidth 2 title "24K Gold (per ounce)"
 EOF
 }
 
@@ -59,7 +59,7 @@ set xdata time
 set timefmt "%Y-%m-%d %H:%M:%S"
 set format x "%m/%d %H:%M"
 set datafile separator "\t"
-plot "$BASE_DIR/data/gold_data.txt" every ::1 using 1:3 with linespoints linewidth 2
+plot "$BASE_DIR/data/gold_data.txt" every ::1 using 1:3 with linespoints linewidth 2 title "Price Change (USD)"
 EOF
 }
 
@@ -75,7 +75,7 @@ set xdata time
 set timefmt "%Y-%m-%d %H:%M:%S"
 set format x "%m/%d %H:%M"
 set datafile separator "\t"
-plot "$BASE_DIR/data/gold_data.txt" every ::1 using 1:4 with linespoints linewidth 2
+plot "$BASE_DIR/data/gold_data.txt" every ::1 using 1:4 with linespoints linewidth 2 title "24K Gold (per gram)"
 EOF
 }
 
@@ -91,7 +91,7 @@ set xdata time
 set timefmt "%Y-%m-%d %H:%M:%S"
 set format x "%m/%d %H:%M"
 set datafile separator "\t"
-plot "$BASE_DIR/data/gold_data.txt" every ::1 using 1:5 with linespoints linewidth 2
+plot "$BASE_DIR/data/gold_data.txt" every ::1 using 1:5 with linespoints linewidth 2 title "22K Gold (per gram)"
 EOF
 }
 
@@ -107,7 +107,7 @@ set xdata time
 set timefmt "%Y-%m-%d %H:%M:%S"
 set format x "%m/%d %H:%M"
 set datafile separator "\t"
-plot "$BASE_DIR/data/gold_data.txt" every ::1 using 1:6 with linespoints linewidth 2
+plot "$BASE_DIR/data/gold_data.txt" every ::1 using 1:6 with linespoints linewidth 2 title "21K Gold (per gram)"
 EOF
 }
 
@@ -123,7 +123,7 @@ set xdata time
 set timefmt "%Y-%m-%d %H:%M:%S"
 set format x "%m/%d %H:%M"
 set datafile separator "\t"
-plot "$BASE_DIR/data/gold_data.txt" every ::1 using 1:7 with linespoints linewidth 2
+plot "$BASE_DIR/data/gold_data.txt" every ::1 using 1:7 with linespoints linewidth 2 title "20K Gold (per gram)"
 EOF
 }
 
@@ -139,7 +139,7 @@ set xdata time
 set timefmt "%Y-%m-%d %H:%M:%S"
 set format x "%m/%d %H:%M"
 set datafile separator "\t"
-plot "$BASE_DIR/data/gold_data.txt" every ::1 using 1:8 with linespoints linewidth 2
+plot "$BASE_DIR/data/gold_data.txt" every ::1 using 1:8 with linespoints linewidth 2 title "18K Gold (per gram)"
 EOF
 }
 
@@ -155,7 +155,7 @@ set xdata time
 set timefmt "%Y-%m-%d %H:%M:%S"
 set format x "%m/%d %H:%M"
 set datafile separator "\t"
-plot "$BASE_DIR/data/gold_data.txt" every ::1 using 1:9 with linespoints linewidth 2
+plot "$BASE_DIR/data/gold_data.txt" every ::1 using 1:9 with linespoints linewidth 2 title "16K Gold (per gram)"
 EOF
 }
 
@@ -171,7 +171,7 @@ set xdata time
 set timefmt "%Y-%m-%d %H:%M:%S"
 set format x "%m/%d %H:%M"
 set datafile separator "\t"
-plot "$BASE_DIR/data/gold_data.txt" every ::1 using 1:10 with linespoints linewidth 2
+plot "$BASE_DIR/data/gold_data.txt" every ::1 using 1:10 with linespoints linewidth 2 title "14K Gold (per gram)"
 EOF
 }
 
@@ -187,7 +187,7 @@ set xdata time
 set timefmt "%Y-%m-%d %H:%M:%S"
 set format x "%m/%d %H:%M"
 set datafile separator "\t"
-plot "$BASE_DIR/data/gold_data.txt" every ::1 using 1:11 with linespoints linewidth 2
+plot "$BASE_DIR/data/gold_data.txt" every ::1 using 1:11 with linespoints linewidth 2 title "10K Gold (per gram)"
 EOF
 }
 

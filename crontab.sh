@@ -6,7 +6,7 @@ cd "$SCRIPT_DIR"
 
 # Check network (internet)
 if ! ping -c 1 8.8.8.8 > /dev/null 2>&1; then
-    echo "$(date) - ERROR: No internet"
+    echo "$(date) - ERROR: network not found"
     exit 1
 fi
 

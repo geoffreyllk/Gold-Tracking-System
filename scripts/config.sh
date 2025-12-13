@@ -13,4 +13,4 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 BASE_DIR="$(dirname "$SCRIPT_DIR")"
 
 LOG_DIR="$BASE_DIR/temp"
-LOG_FILE="$LOG_DIR/gold_tracker.log"
+LOG_FILE="$LOG_DIR/track_prices.log"

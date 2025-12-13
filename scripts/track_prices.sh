@@ -17,7 +17,7 @@ response=$(get_price)
 echo "API response: $response"
 
 # Extract values using jq, if null default to 0
-price=$(echo "$response" | jq -r '.price // 0')
+price=$(echo "$response" | jq -r '.price // null')
 change=$(echo "$response" | jq -r '.ch // 0')
 price_24k=$(echo "$response" | jq -r '.price_gram_24k // 0')
 price_22k=$(echo "$response" | jq -r '.price_gram_22k // 0')
