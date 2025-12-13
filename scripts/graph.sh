@@ -4,6 +4,7 @@
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 source "$SCRIPT_DIR/config.sh"
 
+# extract data in sql db into gold_data.txt
 echo "Extracting SQL data to text file..."
 mysql -u "$DB_USER" -p"$DB_PASSWORD" -B -e "
     SELECT 
@@ -24,6 +25,7 @@ mysql -u "$DB_USER" -p"$DB_PASSWORD" -B -e "
     ORDER BY gp.price_date, gp.price_time
 " $DB_NAME > "$BASE_DIR/data/gold_data.txt"
 
+# if no new data in gold_data.txt then exit
 if [ ! -s "$BASE_DIR/data/gold_data.txt" ] || [ $(wc -l < "$BASE_DIR/data/gold_data.txt") -le 1 ]; then
     echo "No data found in database."
     exit 1

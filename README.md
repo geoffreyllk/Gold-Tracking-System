@@ -1,6 +1,7 @@
 # Gold Price Tracker
 
 ## 1. Database Setup
+first, configure DB_USER and DB_PASSWORD in scripts/config.sh
 
 ```bash
 mysql -u root -p < init_database.sql
@@ -10,20 +11,22 @@ mysql -u root -p < init_database.sql
 chmod +x crontab.sh scripts/*.sh
 crontab -e
 
-# to run every 5 mins: (Testing)
-*/5 * * * * /home/user1/gold_price_tracker/crontab.sh >> /home/user1/gold_price_tracker/temp/cron.log 2>&1
+# Run every 5 mins: (Testing)
+*/5 * * * * cd /path/to/your/gold_price_tracker && ./crontab.sh >> temp/cron.log 2>&1
 
-# to run every hour:
-0 * * * * /home/user1/gold_price_tracker/crontab.sh >> /home/user1/gold_price_tracker/temp/cron.log 2>&1
+# Run every hour:
+0 * * * * cd /path/to/your/gold_price_tracker && ./crontab.sh >> temp/cron.log 2>&1
 
-# to run every day: (Recommended as gold prices do not fluctuate frequently)
-0 0 * * * /home/user1/gold_price_tracker/crontab.sh >> /home/user1/gold_price_tracker/temp/cron.log 2>&1
+# Run every day: (Recommended as gold prices do not fluctuate frequently)
+0 0 * * * cd /path/to/your/gold_price_tracker && ./crontab.sh >> temp/cron.log 2>&1
 
 # display scheduled jobs
 crontab -l
 
 
 ## Manual Execution (Test)
+
+cd ~/gold_price_tracker
 
 # run once to test crontab
 ./crontab.sh
