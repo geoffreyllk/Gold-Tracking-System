@@ -16,7 +16,7 @@ crontab -e
 # to run every hour:
 0 * * * * /home/user1/gold_price_tracker/crontab.sh >> /home/user1/gold_price_tracker/temp/cron.log 2>&1
 
-# to run every day:
+# to run every day: (Recommended as gold prices do not fluctuate frequently)
 0 0 * * * /home/user1/gold_price_tracker/crontab.sh >> /home/user1/gold_price_tracker/temp/cron.log 2>&1
 
 # display scheduled jobs
