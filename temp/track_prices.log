@@ -6,3 +6,5 @@
 2025-12-14 23:19:00 - SUCCESS: Recorded price 4299.39 USD (Change: 18.94 USD) | Purity prices: 24k=138.2286, 22k=126.7095, 18k=103.6714, 16k=92.1524, 14k=80.6333, 10k=57.5952
 2025-12-14 23:20:35 - API Status: OK
 2025-12-14 23:20:36 - SUCCESS: Recorded price 4299.39 USD (Change: 18.94 USD) | Purity prices: 24k=138.2286, 22k=126.7095, 18k=103.6714, 16k=, 14k=80.6333, 10k=57.5952
+2025-12-15 00:00:03 - API Status: DOWN - {"error":"No API Key provided"}
+2025-12-15 01:00:02 - API Status: DOWN - {"error":"No API Key provided"}

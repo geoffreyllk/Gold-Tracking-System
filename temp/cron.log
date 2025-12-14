@@ -31,3 +31,15 @@ All graphs successfully created.
 Graph generation complete
 
 Sun Dec 14 23:00:03 +08 2025 - Completed
+API is down: {"error":"No API Key provided"}
+Mon Dec 15 00:00:03 +08 2025 - WARNING: track_prices.sh failed, continuing...
+Extracting SQL data to text file...
+Enter password: ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+No data found in database.
+Mon Dec 15 00:00:03 +08 2025 - ERROR: graph.sh failed
+API is down: {"error":"No API Key provided"}
+Mon Dec 15 01:00:02 +08 2025 - WARNING: track_prices.sh failed, continuing...
+Extracting SQL data to text file...
+Enter password: ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: NO)
+No data found in database.
+Mon Dec 15 01:00:02 +08 2025 - ERROR: graph.sh failed
